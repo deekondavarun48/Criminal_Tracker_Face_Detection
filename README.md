@@ -1,4 +1,4 @@
-# Criminal Tracker & Face Detection System
+# 🔍 Criminal Tracker & Face Detection System 👤⚡
 
 A web-based intelligent law enforcement and criminal tracking platform built with **Django**, **DeepFace**, **TensorFlow**, and **OpenCV**. The system enables administrative personnel and law enforcement officers to manage crime logs, track criminal records, register precinct stations, and perform biometric facial recognition against verified database records.
 
@@ -6,7 +6,7 @@ A web-based intelligent law enforcement and criminal tracking platform built wit
 
 ## 🌐 Live Demonstration
 
-* **Production URL:** https://criminal-tracker-face-detection.onrender.com
+* **Production URL:** [https://criminal-tracker-face-detection.onrender.com](https://criminal-tracker-face-detection.onrender.com)
 * **Status:** Operational (Render Web Service)
 
 ---
@@ -54,4 +54,12 @@ Criminal_Tracker_Face_Detection/
 │   ├── models.py                      # Crime, Criminal, Station, and Officer schemas
 │   └── views.py
 ├── homeapp/                           # Public landing pages and shared view handling
-│   └──
+│   └── views.py
+├── userapp/                           # Officer portal and face validation modules
+│   └── views.py
+├── assets/                            # Static design assets and templates
+│   ├── static/
+│   └── templates/
+├── media/                             # Uploaded mugshots and profile imagery
+├── manage.py                          # Django execution CLI
+└── requirments.txt                    # Project dependencies
