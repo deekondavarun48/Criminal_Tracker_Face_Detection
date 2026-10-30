@@ -55,4 +55,11 @@ class CriminalModel(models.Model):
     # hash value columns
     aadhar_block = models.CharField(max_length=100, null=True)
     name_block = models.CharField(max_length=100, null=True)
-    email_block = models.CharField(max_length=100
+    email_block = models.CharField(max_length=100, null=True)
+    contact_block = models.CharField(max_length=100, null=True)
+    city_block = models.CharField(max_length=100, null=True)
+    profile_block = models.CharField(max_length=100, null=True)
+    date_block = models.CharField(max_length=100, null=True)
+
+    class Meta:
+        db_table = 'criminals_details'
